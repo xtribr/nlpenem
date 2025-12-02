@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.bin
+
+# Model files (grandes demais para git)
+*.safetensors
+*.ckpt
+*.h5
+*.pb
+
+# Checkpoints - ignorar arquivos grandes, mas manter configurações
+checkpoint-*/
+!checkpoint-*/README.md
+!checkpoint-*/adapter_config.json
+!checkpoint-*/tokenizer*.json
+!checkpoint-*/special_tokens_map.json
+!checkpoint-*/tokenizer_config.json
+checkpoint-*/adapter_model.safetensors
+checkpoint-*/optimizer.pt
+checkpoint-*/scheduler.pt
+checkpoint-*/scaler.pt
+checkpoint-*/rng_state.pth
+checkpoint-*/training_args.bin
+checkpoint-*/trainer_state.json
+
+# Training logs
+logs/
+runs/
+wandb/
+tensorboard/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Data files (se houver)
+data/
+datasets/
+*.csv
+*.parquet
+
+# JSON - mas permitir arquivos de configuração importantes
+*.json
+!adapter_config.json
+!package.json
+!tsconfig.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Google Colab
+/content/
+drive/
+
