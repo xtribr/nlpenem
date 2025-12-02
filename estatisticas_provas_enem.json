@@ -1,0 +1,335 @@
+{
+  "total_questoes": 3099,
+  "total_arquivos": 21,
+  "por_ano": {
+    "N/A": 3099
+  },
+  "por_area": {
+    "languages": 661,
+    "human-sciences": 813,
+    "natural-sciences": 630,
+    "mathematics": 636,
+    "N/A": 359
+  },
+  "por_dificuldade": {
+    "N/A": 3099
+  },
+  "top_temas": {
+    "N/A": 3099
+  },
+  "campos_presentes": [
+    "BK",
+    "CE",
+    "DS",
+    "IU",
+    "ML",
+    "MR",
+    "TU",
+    "alternatives",
+    "alternatives_type",
+    "answer",
+    "area",
+    "associated_images",
+    "context",
+    "context_images",
+    "description",
+    "exam",
+    "figures",
+    "has_associated_images",
+    "has_images",
+    "id",
+    "image_description",
+    "incomplete",
+    "label",
+    "ledor",
+    "number",
+    "options",
+    "original_question",
+    "question",
+    "subject"
+  ],
+  "estatisticas_por_arquivo": [
+    {
+      "arquivo": "enem_2009_completo.jsonl",
+      "questoes": 174,
+      "tamanho_mb": 0.22887611389160156,
+      "anos": {
+        "N/A": 174
+      },
+      "areas": {
+        "languages": 39,
+        "human-sciences": 56,
+        "natural-sciences": 38,
+        "mathematics": 41
+      }
+    },
+    {
+      "arquivo": "enem_2010_completo.jsonl",
+      "questoes": 184,
+      "tamanho_mb": 0.22200584411621094,
+      "anos": {
+        "N/A": 184
+      },
+      "areas": {
+        "languages": 17,
+        "human-sciences": 78,
+        "natural-sciences": 44,
+        "mathematics": 45
+      }
+    },
+    {
+      "arquivo": "enem_2011_completo.jsonl",
+      "questoes": 185,
+      "tamanho_mb": 0.2060108184814453,
+      "anos": {
+        "N/A": 185
+      },
+      "areas": {
+        "languages": 50,
+        "human-sciences": 53,
+        "natural-sciences": 44,
+        "mathematics": 38
+      }
+    },
+    {
+      "arquivo": "enem_2012_completo.jsonl",
+      "questoes": 182,
+      "tamanho_mb": 0.19927024841308594,
+      "anos": {
+        "N/A": 182
+      },
+      "areas": {
+        "languages": 50,
+        "human-sciences": 49,
+        "natural-sciences": 43,
+        "mathematics": 40
+      }
+    },
+    {
+      "arquivo": "enem_2013_completo.jsonl",
+      "questoes": 180,
+      "tamanho_mb": 0.17930889129638672,
+      "anos": {
+        "N/A": 180
+      },
+      "areas": {
+        "languages": 50,
+        "human-sciences": 53,
+        "natural-sciences": 38,
+        "mathematics": 39
+      }
+    },
+    {
+      "arquivo": "enem_2014_completo.jsonl",
+      "questoes": 164,
+      "tamanho_mb": 0.1657085418701172,
+      "anos": {
+        "N/A": 164
+      },
+      "areas": {
+        "languages": 50,
+        "human-sciences": 50,
+        "natural-sciences": 36,
+        "mathematics": 28
+      }
+    },
+    {
+      "arquivo": "enem_2015_completo.jsonl",
+      "questoes": 169,
+      "tamanho_mb": 0.1684427261352539,
+      "anos": {
+        "N/A": 169
+      },
+      "areas": {
+        "languages": 48,
+        "human-sciences": 52,
+        "natural-sciences": 38,
+        "mathematics": 31
+      }
+    },
+    {
+      "arquivo": "enem_2016_completo.jsonl",
+      "questoes": 161,
+      "tamanho_mb": 0.1648550033569336,
+      "anos": {
+        "N/A": 161
+      },
+      "areas": {
+        "languages": 50,
+        "human-sciences": 46,
+        "natural-sciences": 33,
+        "mathematics": 32
+      }
+    },
+    {
+      "arquivo": "enem_2017_completo.jsonl",
+      "questoes": 182,
+      "tamanho_mb": 0.20053577423095703,
+      "anos": {
+        "N/A": 182
+      },
+      "areas": {
+        "languages": 46,
+        "human-sciences": 55,
+        "natural-sciences": 41,
+        "mathematics": 40
+      }
+    },
+    {
+      "arquivo": "enem_2018_completo.jsonl",
+      "questoes": 174,
+      "tamanho_mb": 0.19253063201904297,
+      "anos": {
+        "N/A": 174
+      },
+      "areas": {
+        "languages": 46,
+        "human-sciences": 45,
+        "natural-sciences": 41,
+        "mathematics": 42
+      }
+    },
+    {
+      "arquivo": "enem_2019_completo.jsonl",
+      "questoes": 165,
+      "tamanho_mb": 0.17868804931640625,
+      "anos": {
+        "N/A": 165
+      },
+      "areas": {
+        "languages": 37,
+        "human-sciences": 45,
+        "natural-sciences": 39,
+        "mathematics": 44
+      }
+    },
+    {
+      "arquivo": "enem_2020_completo.jsonl",
+      "questoes": 179,
+      "tamanho_mb": 0.20160579681396484,
+      "anos": {
+        "N/A": 179
+      },
+      "areas": {
+        "languages": 48,
+        "human-sciences": 48,
+        "natural-sciences": 43,
+        "mathematics": 40
+      }
+    },
+    {
+      "arquivo": "enem_2021_completo.jsonl",
+      "questoes": 183,
+      "tamanho_mb": 0.20816802978515625,
+      "anos": {
+        "N/A": 183
+      },
+      "areas": {
+        "languages": 44,
+        "human-sciences": 55,
+        "natural-sciences": 41,
+        "mathematics": 43
+      }
+    },
+    {
+      "arquivo": "enem_2022_completo.jsonl",
+      "questoes": 179,
+      "tamanho_mb": 0.43330955505371094,
+      "anos": {
+        "N/A": 179
+      },
+      "areas": {
+        "N/A": 179
+      }
+    },
+    {
+      "arquivo": "enem_2023_completo.jsonl",
+      "questoes": 138,
+      "tamanho_mb": 0.1587533950805664,
+      "anos": {
+        "N/A": 138
+      },
+      "areas": {
+        "languages": 36,
+        "human-sciences": 38,
+        "natural-sciences": 21,
+        "mathematics": 43
+      }
+    },
+    {
+      "arquivo": "enem_2024_completo.jsonl",
+      "questoes": 180,
+      "tamanho_mb": 0.22614383697509766,
+      "anos": {
+        "N/A": 180
+      },
+      "areas": {
+        "N/A": 180
+      }
+    },
+    {
+      "arquivo": "enem_2025_completo.jsonl",
+      "questoes": 160,
+      "tamanho_mb": 0.114898681640625,
+      "anos": {
+        "N/A": 160
+      },
+      "areas": {
+        "human-sciences": 45,
+        "languages": 25,
+        "mathematics": 45,
+        "natural-sciences": 45
+      }
+    },
+    {
+      "arquivo": "enem_2025_human-sciences.jsonl",
+      "questoes": 45,
+      "tamanho_mb": 0.043236732482910156,
+      "anos": {
+        "N/A": 45
+      },
+      "areas": {
+        "human-sciences": 45
+      }
+    },
+    {
+      "arquivo": "enem_2025_languages.jsonl",
+      "questoes": 25,
+      "tamanho_mb": 0.028415679931640625,
+      "anos": {
+        "N/A": 25
+      },
+      "areas": {
+        "languages": 25
+      }
+    },
+    {
+      "arquivo": "enem_2025_mathematics.jsonl",
+      "questoes": 45,
+      "tamanho_mb": 0.018540382385253906,
+      "anos": {
+        "N/A": 45
+      },
+      "areas": {
+        "mathematics": 45
+      }
+    },
+    {
+      "arquivo": "enem_2025_natural-sciences.jsonl",
+      "questoes": 45,
+      "tamanho_mb": 0.024705886840820312,
+      "anos": {
+        "N/A": 45
+      },
+      "areas": {
+        "natural-sciences": 45
+      }
+    }
+  ],
+  "estatisticas_gerais": {
+    "media_questoes_por_arquivo": 147.57142857142858,
+    "mediana_questoes_por_arquivo": 174,
+    "min_questoes": 25,
+    "max_questoes": 185
+  }
+}

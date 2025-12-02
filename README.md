@@ -30,7 +30,39 @@ cd nlpenem
 pip install -r requirements.txt
 ```
 
-### Uso Básico
+### Configuração da API (Recomendado)
+
+O modelo usa a **API SABIA-3.1 da Maritaca** ao invés do modelo base local. Configure sua chave de API:
+
+```bash
+# Linux/Mac
+export MARITACA_API_KEY='sua-chave-aqui'
+
+# Windows (PowerShell)
+$env:MARITACA_API_KEY='sua-chave-aqui'
+
+# Ou crie um arquivo .env
+echo "MARITACA_API_KEY=sua-chave-aqui" > .env
+```
+
+### Uso Básico com API
+
+```python
+import os
+from maritaca_api import MaritacaAPI
+
+# Inicializar cliente (usa MARITACA_API_KEY do ambiente)
+client = MaritacaAPI()
+
+# Gerar resposta para questão ENEM
+prompt = "Explique o conceito de Teoria da Resposta ao Item (TRI) no contexto do ENEM:"
+response = client.generate_enem_response(prompt, max_tokens=300)
+print(response)
+```
+
+### Uso Básico (Modo Local - Alternativo)
+
+Se preferir usar o modelo local ao invés da API:
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -65,7 +97,10 @@ response = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(response)
 ```
 
-Para mais exemplos, consulte o arquivo [`example_usage.py`](example_usage.py).
+Para mais exemplos, consulte:
+- [`example_usage.py`](example_usage.py) - Exemplos de uso
+- [`test_model_api.py`](test_model_api.py) - Testes com API
+- [`maritaca_api.py`](maritaca_api.py) - Cliente da API
 
 ## 📊 Métricas de Treinamento
 

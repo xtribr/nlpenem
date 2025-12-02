@@ -80,14 +80,17 @@ Thumbs.db
 # Data files (se houver)
 data/
 datasets/
+provas/
 *.csv
 *.parquet
+*.jsonl
 
 # JSON - mas permitir arquivos de configuração importantes
 *.json
 !adapter_config.json
 !package.json
 !tsconfig.json
+!estatisticas_provas_enem.json
 
 # Temporary files
 tmp/
@@ -98,3 +101,4 @@ temp/
 /content/
 drive/
 
+.env
